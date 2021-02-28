@@ -1,0 +1,44 @@
+.icon-social {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-button-icon {
+  color: $color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .icon-social {
+    width: 87px;
+  }
+
+  .button-fb {
+    width: 9px;
+    height: 16px;
+  }
+
+  .button-insta {
+    width: 16px;
+    height: 16px;
+  }
+
+  .button-twitter {
+    width: 16px;
+    height: 13px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .icon-social {
+    padding-top: 10px;
+  }
+}

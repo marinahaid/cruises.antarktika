@@ -1,0 +1,46 @@
+.site-list a {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: $color-light;
+
+  &:focus,
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.site-list li {
+  padding-top: 20px;
+  margin-left: 34px;
+}
+
+@media (max-width: $tablet-width) {
+  .site-list li {
+    margin-left: 24px;
+  }
+
+  .site-list a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .site-list a {
+    font-size: 18px;
+    line-height: 22px;
+    color: $color;
+    display: block;
+    padding: 15px 0 6px 0;
+  }
+
+  .site-list li {
+    margin-left: 0;
+    padding-top: 0;
+  }
+}

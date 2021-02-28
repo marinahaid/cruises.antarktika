@@ -1,0 +1,59 @@
+.page-header {
+  width: 100%;
+  z-index: 3;
+  position: relative;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__logo {
+  width: 70px;
+  height: 38px;
+}
+
+.page-header__logo-image {
+  width: 70px;
+  height: 39px;
+  margin-top: 34px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .page-header__logo {
+    height: 40px;
+  }
+
+  .page-header__logo-image {
+    height: 20px;
+    width: 38px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-header__wrapper {
+    display: block;
+  }
+
+  .page-header__logo {
+    height: 42px;
+    display: flex;
+  }
+
+  .page-header__logo-image {
+    width: 42px;
+    height: 22px;
+    margin-top: 20px;
+  }
+}
