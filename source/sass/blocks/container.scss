@@ -1,9 +1,8 @@
 .container {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 100px;
-
-  @media (max-width: $tablet-width) {
+ 
+@media (max-width: $tablet-width) {
     width: 100%;
     padding: 0 45px;
   }
