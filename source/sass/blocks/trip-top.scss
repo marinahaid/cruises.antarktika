@@ -8,12 +8,12 @@
 .trip-top::before {
   content: "";
   width: 100%;
-  min-height: 653px;
+  min-height: 666px;
   background-color: $color;
   background-image: url("../img/top-desk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   left: 0;
   display: block;
   z-index: -1;
@@ -27,8 +27,8 @@
 .trip-top__container {
   width: 86%;
   position: absolute;
-  bottom: 280px;
-  left: 98px;
+  bottom: 264px;
+  left: 473px;
 }
 
 .trip-top__container br {
